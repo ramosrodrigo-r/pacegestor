@@ -1,0 +1,14 @@
+{
+  "name": "pacegestor",
+  "version": "0.1.0",
+  "description": "SaaS de gestão para assessorias de corrida",
+  "scripts": {
+    "dev": "npx live-server dist --port=3000",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "live-server": "^1.2.2"
+  }
+}
